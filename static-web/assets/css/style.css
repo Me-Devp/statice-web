@@ -1,0 +1,57 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.dark-overlay {
+  background: linear-gradient(#00000098, #00000098);
+}
+
+.rounded {
+  --bs-border-radius: 20px;
+}
+
+.bg-image-1 {
+  background: linear-gradient(0, #00000020, #00000020),
+    url("/assets/images/bg-img-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  z-index: -99;
+}
+
+.bg-image-2 {
+  background: linear-gradient(0, #00000090, #00000090),
+    url("/assets/images/bg-img-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  z-index: -99;
+}
+
+.bg-image-3 {
+  background: linear-gradient(0, #00000090, #00000090),
+    url("/assets/images/bg-img-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  z-index: -99;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.footer{
+  position:relative;
+  bottom: 0;
+}
